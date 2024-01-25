@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h3>News Website</h3>
+    </div>
+    <div class="buttons">
+        <ul class="nav d-flex justify-content-around">
+            <li class="nav-item">
+              <a onclick='getValue("world")' class="nav-link" aria-current="page" href="#">World</a>
+            </li>
+            <li class="nav-item">
+              <a onclick='getValue("sports")' class="nav-link" href="#">Sports</a>
+            </li>
+            <li class="nav-item ">
+              <a onclick='getValue("bollywood")' class="nav-link" href="#">Bollywood</a>
+            </li>
+            <li class="nav-item">
+              <a onclick='getValue("bussiness")' class="nav-link" href="#">Bussiness</a>
+            </li>
+            <li class="nav-item">
+              <a onclick='getValue("career")'' class="nav-link" href="#">Career</a>
+            </li>
+            <li class="nav-item">
+              <a onclick='getValue("country")' class="nav-link">Country</a>
+            </li>
+          </ul>
+    </div>
+    <div id="contants" class="contants" >
+        
+    </div>
+    <script src="./script.js"></script>
+     
+  </body>
+</html>
